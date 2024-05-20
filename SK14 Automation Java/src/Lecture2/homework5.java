@@ -21,4 +21,5 @@ public class homework5 {
 
             scanner.close();
         }
-    }}
+    }
+}
