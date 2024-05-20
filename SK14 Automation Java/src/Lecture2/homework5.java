@@ -1,20 +1,24 @@
 package Lecture2;
 
-import static java.lang.System.out;
+import java.util.Scanner;
 
 public class homework5 {
 
-    public static void main (String[] args) {
-    }
+    public static class InputExample {
+        public static void main (String[] args) {
+            String firstName = "Tsveta";
+            String middleName = "Valentinova";
+            String lastName = "Vasileva";
 
-    {
-        int treeHeight = 5;
-        for (int i = 0; i < treeHeight; i++) {
-            for (int j = 0; j < treeHeight - i - 1; j++) {
-                System.out.print(" ");
-            }
-            for (int k = 0; k < 2 * i + 1; k++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }}}
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.print(firstName + " T " + middleName + " V " + lastName + " V ");
+            int number = scanner.nextInt();
+
+            int result = number * 2;
+
+            System.out.println("The result is: " + result);
+
+            scanner.close();
+        }
+    }}

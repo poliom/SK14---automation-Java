@@ -1,13 +1,15 @@
 package Lecture2;
 
 public class homework3 {
-    // Print the perimeter of a triangle by given sides. Use formula to calculate it.
+    // Print the area of a triangle by given sides. Use formula to calculate it.
     public static void main(String[] args) {
-        int a = 3;
-        int b = 3;
-        int c = 3;
 
-        int perimeter = a + b + c;
-        System.out.println("Perimeter is: " + perimeter);
+        double sideA = 8.0;
+        double sideB = 10.0;
+        double sideC = 10.0;
+        double semiPerimeter = (sideA + sideB + sideC) / 2;
+
+        double area = Math.sqrt(semiPerimeter * (semiPerimeter - sideA) * (semiPerimeter - sideB) * (semiPerimeter - sideC));
+        System.out.println("The area of the triangle is: " + area);
     }
 }
