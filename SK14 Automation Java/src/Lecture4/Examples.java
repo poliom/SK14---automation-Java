@@ -16,7 +16,11 @@ public class Examples {
         testWhileLoop();
 //        testDoWhileLoop();
 //        testContinueStatement();
-        testBreakStatement();
+//        testBreakStatement();
+//        testDoWhileLoop();
+//        testDoWhileLoopIterateArray();
+//        testWhileLoopArray();
+//        testForIterateArray();
     }
 
     public static void testArithmeticOperations() {

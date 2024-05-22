@@ -8,6 +8,7 @@ public class Examples {
 //        testArrayDeclaration();
 //        testArrayElementValue();
 //        testArrayLoop();
+//        testArrayLoopAddValues();
 //        testArrayForEachLoop();
 //        testMultidimensionalArray();
 //        testArrayListDeclaration();
@@ -15,7 +16,7 @@ public class Examples {
 //        testLinkedListInit();
 //        testLinkedListOperations();
 //        testQueue();
-//        testStack();
+        testStack();
 //        testHashSetIterator();
 //        testHashSetForEach();
 //        testHashSetOperations();
@@ -26,13 +27,15 @@ public class Examples {
 
     public static void testArrayDeclarationElementInit() {
         // Creates an array with initialized elements
+        //                      0       1       2        3
         String[] carBrands = {"Audi", "Bmw", "Volvo", "Mercedes"};
         int[] evenNumbers = {2, 4, 6, 8, 10};
         double[] degrees = {0, 0.5, 1, 1.5, 2, 2.5};
+        long[] bigNumbers = {12548948489L,646646979494L,654494949497L};
 
-        System.out.println(carBrands[0]);
+        System.out.println(carBrands[2]);
         System.out.println(evenNumbers[2]);
-        System.out.println(degrees[5]);
+        System.out.println(degrees[2]);
 
         System.out.println(carBrands.length);
         System.out.println(evenNumbers.length);
@@ -42,10 +45,12 @@ public class Examples {
     public static void testArrayDeclaration() {
         // Creates an array with fixed size. Then adds elements one by one.
         String[] cars = new String[3];
-        cars[0] = "Volvo";
-        cars[1] = "Bmw";
-        cars[2] = "Mercedes";
+        //cars[0] = "Volvo";
+        cars[2] = "Bmw";
+        cars[1] = "Mercedes";
         System.out.println(cars[1]);
+        System.out.println(cars[0]);
+        System.out.println(cars.length);
     }
 
     public static void testArrayElementValue() {
@@ -56,15 +61,47 @@ public class Examples {
 
     public static void testArrayLoop() {
         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+        System.out.println("Option 1");
         for (int i = 0; i < cars.length; i++) {
             System.out.println(cars[i]);
+        }
+
+        System.out.println("Option 2");
+        for (int i = 0; i <= cars.length-1; i++) {
+            System.out.println(cars[i]);
+        }
+
+        System.out.println("Option 3");
+        for (int i = 0; i != cars.length; i++) {
+            System.out.println(cars[i]);
+        }
+
+        System.out.println("Reverse print");
+        for (int i = cars.length-1; i >= 0; i--) {
+            System.out.println(cars[i]);
+        }
+    }
+
+    public static void testArrayLoopAddValues() {
+        // Creates an array with fixed size. Then adds elements one by one.
+        int[] numbers = new int[3];
+
+        int singleNumber = 0;
+
+        for(int i=0; i < numbers.length;i++){
+            numbers[i] = singleNumber++; // ++ -> num = num + 1
+        }
+
+        for (int i = 0; i != numbers.length; i++) {
+            System.out.println(numbers[i]);
         }
     }
 
     public static void testArrayForEachLoop() {
         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-        for (String i : cars) {
-            System.out.println(i);
+        for (String arrayElement : cars) {
+            System.out.println(arrayElement);
         }
     }
 
@@ -86,9 +123,16 @@ public class Examples {
                 {7, 8, 9}
         };
 
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                System.out.println(arr[i][j]);
+        for (int row = 0; row < 3; row++) {
+            for (int column = 0; column < 3; column++) {
+                System.out.println(arr[row][column]);
+            }
+        }
+
+        System.out.println("Loop on column first");
+        for (int column = 0; column < 3; column++) {
+            for (int row = 0; row < 3; row++) {
+                System.out.println(arr[row][column]);
             }
         }
     }
@@ -124,6 +168,12 @@ public class Examples {
             System.out.println(i);
         }
 
+        System.out.println("Add with index");
+        cars.add(1, "Karuca");
+        cars.add("Audi");
+        for (String i : cars) {
+            System.out.println(i);
+        }
     }
 
     public static void testLinkedListInit() {
@@ -148,6 +198,7 @@ public class Examples {
         System.out.println(cars.getFirst());
         System.out.println(cars.getLast());
 
+        System.out.println(cars);
         cars.remove(); //removes first element
         System.out.println(cars);
 
@@ -171,9 +222,10 @@ public class Examples {
         queue.add(15);
 
         int numElements = queue.size();
-
+        System.out.println("Queue size: " + numElements);
         System.out.println("Queue elements: " + queue);
-
+//        queue.remove();
+//        System.out.println("Remove element with remove: " + queue);
         for (int i = 0; i < numElements; i++) {
             // Prints the first element and remove it from the queue
             System.out.println("Removed element: " + queue.poll());
@@ -197,6 +249,13 @@ public class Examples {
 
         elements.push("Test5");
         System.out.println("Stack elements: " + elements);
+//
+//        // Returns top element and remove it from the Stack
+//        System.out.println("Element removed: " + elements.pop());
+//        System.out.println("Stack elements: " + elements);
+//
+//        elements.remove(1);
+//        System.out.println("Stack elements: " + elements);
     }
 
     public static void testHashSetIterator() {
