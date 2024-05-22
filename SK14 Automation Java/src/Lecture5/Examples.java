@@ -4,7 +4,24 @@ import java.util.*;
 
 public class Examples {
     public static void main(String[] args) {
-        
+//        testArrayDeclarationElementInit();
+//        testArrayDeclaration();
+//        testArrayElementValue();
+//        testArrayLoop();
+//        testArrayForEachLoop();
+//        testMultidimensionalArray();
+//        testArrayListDeclaration();
+//        testArrayListOperations();
+//        testLinkedListInit();
+//        testLinkedListOperations();
+//        testQueue();
+//        testStack();
+//        testHashSetIterator();
+//        testHashSetForEach();
+//        testHashSetOperations();
+//        testHashMapEntrySet();
+//        testHashMapKeySet();
+//        testHashMapOperations();
     }
 
     public static void testArrayDeclarationElementInit() {
