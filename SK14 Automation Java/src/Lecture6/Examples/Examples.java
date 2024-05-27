@@ -2,6 +2,29 @@ package Lecture6.Examples;
 
 public class Examples {
     public static void main(String[] args) {
+//        myMethod();
+//
+//        //V1
+//        printMessage("My first text");
+//        //V2
+//        String textForParam = "This is some random text";
+//        printMessage(textForParam);
+//
+//        System.out.println("Print between methods");
+//        myMethod();
+//
+//        printFirstName("Vidko");
+//        printPersonAge("Vidko", 34);
+//        calculateSum(2,4);
+//        System.out.println("Sum of numbers is: " + calculateSum(3,6));
+//        System.out.println(calculateSumV2(3,6));
+        checkAge(25);
+        Dog test = new Dog();
+        test.displayInfo();
+    }
+
+    static void printMessage(String text){
+        System.out.println("This is the text that we get: " + text);
     }
 
     static void myMethod() {
@@ -14,11 +37,16 @@ public class Examples {
     }
 
     static void printPersonAge(String fname, int age) {
-        System.out.println(fname + " is " + age + "years old");
+        System.out.println(fname + " is " + age + " years old");
     }
 
     static int calculateSum(int x, int y) {
         return x + y;
+    }
+
+    static int calculateSumV2(int x, int y) {
+        int sum = x + y;
+        return sum;
     }
 
     static void checkAge(int age) {
@@ -36,6 +64,23 @@ public class Examples {
     static double calculateSum(double x, double y) {
         return x + y;
     }
+
+    static long calculateSum(long x, long y) {
+        return x + y;
+    }
+    static String calculateSum(String x, String y) {
+        int xLenght = x.length();
+        int yLenght = y.length();
+        int totalLenght = xLenght + yLenght;
+
+        String total = String.valueOf(totalLenght);
+        //String total = ""+totalLenght;
+        return total;
+        //return x + y;
+    }
+//    static String calculateSum(String x, String y) {
+//        return x + y;
+//    }
 
     static int calculateSum(int x, int y, int z) {
         return x + y + z;

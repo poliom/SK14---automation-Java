@@ -10,7 +10,7 @@ public class Examples {
 //        testArrayLoop();
 //        testArrayLoopAddValues();
 //        testArrayForEachLoop();
-        testMultidimensionalArray();
+//        testMultidimensionalArray();
 //        testArrayListDeclaration();
 //        testArrayListOperations();
 //        testLinkedListInit();
@@ -22,7 +22,7 @@ public class Examples {
 //        testHashSetOperations();
 //        testHashMapEntrySet();
 //        testHashMapKeySet();
-//        testHashMapOperations();
+        testHashMapOperations();
     }
 
     public static void testArrayDeclarationElementInit() {
@@ -94,7 +94,9 @@ public class Examples {
         }
 
         for (int i = 0; i != numbers.length; i++) {
-            System.out.println(numbers[i]);
+            if (i%2==0) {
+                System.out.println(numbers[i]);
+            }
         }
     }
 
@@ -102,6 +104,9 @@ public class Examples {
         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
         for (String arrayElement : cars) {
             System.out.println(arrayElement);
+            if (arrayElement.contains("Ford")){
+                break;
+            }
         }
     }
 
@@ -349,8 +354,9 @@ public class Examples {
         //Put elements in Map
         map.put(1, "Mango");
         map.put(2, "Apple");
-        map.put(3, "Banana");
+        map.put(3, "Apple");
         map.put(4, "Grapes");
+        map.put(4, "Apple");
 
         for (Integer i : map.keySet()) {//key set returns all keys of the map
             System.out.println(i + " " + map.get(i));
