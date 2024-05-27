@@ -1,6 +1,7 @@
 package Lecture4;
 
-public class Examples {
+public class
+Examples {
     public static void main(String[] args) {
 //        testArithmeticOperations();
 //        testAssignmentOperators();
