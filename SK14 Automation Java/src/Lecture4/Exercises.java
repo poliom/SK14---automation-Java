@@ -147,6 +147,14 @@ public class Exercises {
         }
 
         System.out.println("The largest number is: " + largestNumber);
+
+//        for (int j = 0; j < arr.length; j++){
+//            if (j==0){
+//                largestNumber = arr[j];
+//            }
+//            if (arr[j]>largestNumber) largestNumber = arr[j];
+//        }
+//        System.out.println("The largest number is: " + largestNumber);
     }
 
     public static void planVacation() {
