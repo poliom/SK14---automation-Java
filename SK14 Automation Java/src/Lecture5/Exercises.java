@@ -5,7 +5,9 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Exercises {
-    public static void main(String[] args) {}
+    public static void main(String[] args) {
+        printDynamicMatrixElements();
+    }
 
     public static void printArraySum() {
         double[] numbers = {0, 0.5, 1, 1.5, 2, 2.5};
