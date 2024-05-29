@@ -10,4 +10,8 @@ public class Car {
     private String color;
     private boolean isNew;
 
+    public String getModel(){
+        return model;
+    }
+
 }

@@ -4,10 +4,17 @@ import java.io.*;
 
 public class Examples {
     public static void main(String[] args) {
+        //testTryCatch("src/Lecture7/exceptions/testFile.txt");
+        //testUncheckedException();
+        try {
+            testTryFinally("src/Lecture7/exceptions/tecvcstFile.txt");
+        }catch (IOException ex){
+            System.out.println("There is no such file 'tecvcstFile.txt'. Inner exception: " + ex);
+        }
     }
 
 /*    static void testCheckedException() {
-        File file = new File("src/lecture07/exceptions/testFile.txt");
+        File file = new File("src/Lecture7/exceptions/testFile.txt");
         FileReader fr = new FileReader(file);
     }*/
 
@@ -18,8 +25,8 @@ public class Examples {
 
     /**
      * @param path example:
-     *             "src/lecture07/exceptions/testFile.txt"
-     *             "src/lecture07/testFile1.txt"
+     *             "src/Lecture7/exceptions/testFile.txt"
+     *             "src/Lecture7/testFile1.txt"
      */
     static void testTryCatch(String path) {
         File file = new File(path);
@@ -60,8 +67,8 @@ public class Examples {
 
     /**
      * @param path example:
-     *             "src/lecture07/exceptions/testFile.txt"
-     *             "src/lecture07/testFile1.txt"
+     *             "src/Lecture7/exceptions/testFile.txt"
+     *             "src/Lecture7/testFile1.txt"
      */
     static void testThrowsException(String path) throws FileNotFoundException {
         File file = new File(path);
@@ -84,8 +91,8 @@ public class Examples {
 
     /**
      * @param path example:
-     *             "src/lecture07/exceptions/testFile.txt"
-     *             "src/lecture07/testFile1.txt"
+     *             "src/Lecture7/exceptions/testFile.txt"
+     *             "src/Lecture7/testFile1.txt"
      */
     static void testTryFinally(String path) throws IOException {
         FileInputStream fis = null;
