@@ -18,9 +18,31 @@ public class Examples {
 //        calculateSum(2,4);
 //        System.out.println("Sum of numbers is: " + calculateSum(3,6));
 //        System.out.println(calculateSumV2(3,6));
-        checkAge(25);
-        Dog test = new Dog();
-        test.displayInfo();
+//        checkAge(25);
+//        Dog test = new Dog();
+//        test.displayInfo();
+        AgeValidation userAgeValidation = new AgeValidation();
+
+        System.out.println("User birth year is: " + userAgeValidation.getBirthYear());
+        userAgeValidation.setBirthYear("1985");
+        System.out.println("User birth year is: " + userAgeValidation.getBirthYear());
+
+        System.out.println("User is " + userAgeValidation.getAge() + " years old");
+        userAgeValidation.setAge(28);
+        System.out.println("User is " + userAgeValidation.getAge() + " years old");
+        boolean isUserAdult= userAgeValidation.IsUserAdult();
+        //System.out.println("User is adult: " + userAgeValidation.IsUserAdult());
+        System.out.println("User is adult: " + isUserAdult);
+
+        //if (userAgeValidation.IsUserAdult()){
+        if (isUserAdult){
+            System.out.println("User is Adult");
+        }
+        else {
+            System.out.println("User is not Adult");
+        }
+        userAgeValidation.setAge(13);
+        System.out.println("User is " + userAgeValidation.getAge() + " years old");
     }
 
     static void printMessage(String text){
