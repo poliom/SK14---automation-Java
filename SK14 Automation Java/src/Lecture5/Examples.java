@@ -16,13 +16,13 @@ public class Examples {
 //        testLinkedListInit();
 //        testLinkedListOperations();
 //        testQueue();
-        testStack();
+//        testStack();
 //        testHashSetIterator();
 //        testHashSetForEach();
 //        testHashSetOperations();
 //        testHashMapEntrySet();
 //        testHashMapKeySet();
-//        testHashMapOperations();
+        testHashMapOperations();
     }
 
     public static void testArrayDeclarationElementInit() {
@@ -94,7 +94,9 @@ public class Examples {
         }
 
         for (int i = 0; i != numbers.length; i++) {
-            System.out.println(numbers[i]);
+            if (i%2==0) {
+                System.out.println(numbers[i]);
+            }
         }
     }
 
@@ -102,6 +104,9 @@ public class Examples {
         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
         for (String arrayElement : cars) {
             System.out.println(arrayElement);
+            if (arrayElement.contains("Ford")){
+                break;
+            }
         }
     }
 
@@ -118,20 +123,29 @@ public class Examples {
         arr[2][2]=9;*/
 
         int[][] arr = {
-                {1, 2, 3},
-                {4, 5, 6},
-                {7, 8, 9}
+                {1, 2, 3, 10},
+                {4, 5, 6, 11},
+                {7, 8, 9, 12},
+                {13,14,15,16}
         };
 
-        for (int row = 0; row < 3; row++) {
-            for (int column = 0; column < 3; column++) {
+        for (int row = 0; row < 4; row++) {
+            for (int column = 0; column < 4; column++) {
+                if (column == 2) {
+                    if (row == 0){
+                        continue;
+                    }
+                    System.out.println("Code will break");
+                    break;
+                }
                 System.out.println(arr[row][column]);
             }
+            System.out.println("Code in first for");
         }
 
         System.out.println("Loop on column first");
-        for (int column = 0; column < 3; column++) {
-            for (int row = 0; row < 3; row++) {
+        for (int column = 0; column < 4; column++) {
+            for (int row = 0; row < 4; row++) {
                 System.out.println(arr[row][column]);
             }
         }
@@ -177,7 +191,7 @@ public class Examples {
     }
 
     public static void testLinkedListInit() {
-        LinkedList<String> cars = new LinkedList <>() ;
+        LinkedList<String> cars = new LinkedList<String>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
@@ -187,7 +201,7 @@ public class Examples {
     }
 
     public static void testLinkedListOperations() {
-        reverseLinkedList <String> cars = new reverseLinkedList <String>();
+        LinkedList<String> cars = new LinkedList<String>();
         cars.add("Volvo"); //adding element
         cars.addFirst("BMW"); //adding on first position
         cars.addLast("Ford"); //adding on last position
@@ -340,8 +354,9 @@ public class Examples {
         //Put elements in Map
         map.put(1, "Mango");
         map.put(2, "Apple");
-        map.put(3, "Banana");
+        map.put(3, "Apple");
         map.put(4, "Grapes");
+        map.put(4, "Apple");
 
         for (Integer i : map.keySet()) {//key set returns all keys of the map
             System.out.println(i + " " + map.get(i));
@@ -377,4 +392,3 @@ public class Examples {
         }
     }
 }
-
