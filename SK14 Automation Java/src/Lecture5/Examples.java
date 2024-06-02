@@ -177,7 +177,7 @@ public class Examples {
     }
 
     public static void testLinkedListInit() {
-        LinkedList<String> cars = new LinkedList<String>();
+        LinkedList<String> cars = new LinkedList <>() ;
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
@@ -187,7 +187,7 @@ public class Examples {
     }
 
     public static void testLinkedListOperations() {
-        LinkedList<String> cars = new LinkedList<String>();
+        reverseLinkedList <String> cars = new reverseLinkedList <String>();
         cars.add("Volvo"); //adding element
         cars.addFirst("BMW"); //adding on first position
         cars.addLast("Ford"); //adding on last position
