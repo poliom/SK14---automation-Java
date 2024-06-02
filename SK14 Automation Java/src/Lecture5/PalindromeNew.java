@@ -2,7 +2,7 @@ package Lecture5;
 
 public class PalindromeNew {
     public static void main(String[] args) {
-        String str = "madam";
+        String str = "radan";
         boolean isPalindrome = true;
 
         for (int i = 0; i < str.length() / 2; i++) {
