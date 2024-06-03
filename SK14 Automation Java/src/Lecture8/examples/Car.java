@@ -23,4 +23,13 @@ public class Car {
         this.horsePower = horsePower;
     }
 
+    public static void PrintCar(Car theCar){
+        System.out.println(theCar.brand);
+        System.out.println(theCar.model);
+        System.out.println(theCar.horsePower);
+        System.out.println(theCar.maxSpeed);
+        System.out.println(theCar.width);
+        System.out.println(theCar.length);
+        System.out.println(theCar.weight);
+    }
 }

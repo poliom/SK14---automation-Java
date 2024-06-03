@@ -7,5 +7,11 @@ public class Examples {
         String accNum = bankAccount.getAccountNumber();
 
         System.out.println(bankAccount.getOwnerName() + " " + balance + " " + accNum);
+        bankAccount.setOwnerName("Vidko Videv");
+        System.out.println(bankAccount.getOwnerName() + " " + balance + " " + accNum);
+
+        bankAccount.makeTransaction(200);
+        balance = bankAccount.getAccountBalance();
+        System.out.println(bankAccount.getOwnerName() + " " + balance + " " + accNum);
     }
 }

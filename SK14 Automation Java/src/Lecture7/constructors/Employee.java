@@ -1,7 +1,7 @@
 package Lecture7.constructors;
 
 public class Employee {
-    private String firstName;
+    public String firstName;
     private String lastName;
     private int birthYear;
 
