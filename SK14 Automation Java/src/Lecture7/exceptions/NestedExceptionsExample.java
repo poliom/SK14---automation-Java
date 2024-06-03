@@ -14,9 +14,17 @@ public class NestedExceptionsExample {
         try{
             System.out.println("hello");
             notThrowit();
-        } catch (Exception e){//catch (ArithmeticException e){
+        }
+        catch (ArithmeticException arEx){
             System.out.println("caught");
-        } finally {
+        }
+        catch (RuntimeException rtEx){
+            System.out.println("caught runtime");
+        }
+        catch (Exception allEx) {
+            System.out.println("All other then runtime or arithmetic");
+        }
+        finally {
             System.out.println("finally");
         }
         System.out.println("after");

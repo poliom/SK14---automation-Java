@@ -20,29 +20,7 @@ public class Examples {
 //        System.out.println(tsveta.getBirthYear());
 //        System.out.println(assya.getBirthYear());
 
-
-
-
-
-
-
-
-
-
-
-
         Car bmw = new Car("KM8649BM", "BMW");
-
-
-
-
-
-
-
-
-
-
-
     }
 
     static Employee createEmployee() {
