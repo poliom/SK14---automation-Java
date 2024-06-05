@@ -13,5 +13,14 @@ public class Exercise {
         System.out.println("Is adult: " + tsveti.isAdult());
         tsveti.celebrateEaster();
         tsveti.sayHello();
+        System.out.println("Child part:");
+        Child kid = new Child("Alexandar","orthodox","Bulgarian", "Bulgarian","Female", "1343304865",false, null, "Bulgaria");
+        kid.sayHello();
+        System.out.println("Can take a loan: " + kid.canTakeLoan());
+        System.out.println("Is adult: " + kid.isAdult());
+        kid.celebrateEaster();
+        kid.play("car");
+        kid.play("laptop");
+        kid.setHasJob(true);
     }
 }

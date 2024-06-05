@@ -161,7 +161,12 @@ public class Person {
         switch (country){
             case "Bulgaria":
             case "Italy":
-                return age >= 18;
+                if (age >= 18){
+                    return true;
+                }
+                else {
+                    return false;
+                }
             case "USA":
                 return age >= 21;
             default:
