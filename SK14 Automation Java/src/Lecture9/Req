@@ -1,0 +1,20 @@
+1. Create class Person
+2. which has the following attributes:
+ name, sex, religion,
+ language spoken, job,
+ nationality, EGN,
+ date of birth, age,
+ country of residence.
+3. The date of birth attribute and age
+ are composed during the creation of an
+ object based on the EGN.
+4. EGN consists of 10 digits.
+5. If provided value for EGN or
+ sex are not correct throw exception.
+6. If wrong sex is provided program
+ must continue its normal execution
+ with printing relevant message.
+7. Only job and country of residence
+ could change their values.
+8. All other attributes can`t be
+ changes once they are set.
