@@ -1,0 +1,19 @@
+1. The Person class should have methods:
+ sayHello(),
+ celebrateEaster(),
+ isAdult(),
+ canTakeLoan()
+    with the relevant parameters if any.
+2. sayHello() should print Hello based on concrete person spoken language,
+ default is in English.
+3. celebrateEaster should print if the concrete person
+ celebrates Easter based on their religion.
+4. isAdult should take in consideration the country of residence.
+5. canTakeLoan is based on the job.
+
+additonal info
+2. Languages – Bulgarian / Italian / English;
+4. Countries – Bulgaria (18) / Italy (18) / USA (21);
+Sex – Male / Female
+3. Religions – Orthodox / Catholic / Islam
+5. hasJob - true or false
