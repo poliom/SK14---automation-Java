@@ -4,7 +4,7 @@ public class Circle extends Shape {
     private Double parameter;
 
     public Circle (Double parameter) {
-        this.parameter = parameter = 6.0;
+        this.parameter = parameter;
     }
 
     public Circle () {
