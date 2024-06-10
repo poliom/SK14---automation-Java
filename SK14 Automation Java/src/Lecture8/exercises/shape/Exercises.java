@@ -19,5 +19,10 @@ public class Exercises {
         Square s5 = new Square();
         System.out.println(s5.getArea(6.0));
         System.out.println(s5.getPerimeter(6.0));
+
+        Circle v1 = new Circle();
+        v1.setRadius(3.0);
+        System.out.println(v1.getArea());
+        System.out.println(v1.getPerimeter());
     }
 }
