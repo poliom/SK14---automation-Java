@@ -1,25 +1,20 @@
 package Lecture8;
 
 public class Circle extends Shape {
-    private Double parameter;
-
-    public Circle (Double parameter) {
-        this.parameter = parameter;
-    }
 
     public Circle () {
 
     }
 
     @Override
-    public Double getArea (double v) {
-        double v1 = Math.PI;
-        return v1 * parameter * parameter;
+    public Double getArea (double radius) {
+        double numberPI = Math.PI;
+        return numberPI * radius * radius;
     }
 
     @Override
-    public Double getPerimeter (double v) {
-        v = 2 * Math.PI;
-        return v * parameter;
+    public Double getPerimeter (double radius) {
+        double twiceNumberPI = 2 * Math.PI;
+        return radius * twiceNumberPI;
     }
 }
