@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test-methodSuite" parallel="methods" thread-count="2">
+    <test name="Test-method test" group-by-instances="true">
+        <classes>
+            <class name="lecture10.examples.ParametersTests">
+                <methods>
+                    <include name="testSingleParameter">
+                    </include>
+                    <include name="testMultiParameters">
+                        <parameter name="num1" value="3"></parameter>
+                        <parameter name="num2" value="2"></parameter>
+                    </include>
+                    <include name="testOptionalParameter"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
