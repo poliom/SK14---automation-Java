@@ -8,8 +8,8 @@
     </groups>
     <test name="Test-method test" group-by-instances="true">
         <classes>
-            <class name="lecture10.examples.GroupTests"/>
-            <class name="lecture10.TestNGClass"/>
+            <class name="Lecture10.examples.GroupTests"/>
+            <class name="Lecture10.TestNGClass"/>
         </classes>
     </test>
 </suite>
