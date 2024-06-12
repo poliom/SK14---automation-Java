@@ -1,4 +1,4 @@
-package lecture10.examples;
+package Lecture10.examples;
 
 import org.testng.annotations.Test;
 

@@ -2,7 +2,7 @@
 <suite name="Test-methodSuite" parallel="methods" thread-count="2">
     <test name="Test-method test" group-by-instances="true">
         <classes>
-            <class name="lecture10.examples.ParallelTests"/>
+            <class name="Lecture10.examples.ParallelTests"/>
         </classes>
     </test>
 </suite>
