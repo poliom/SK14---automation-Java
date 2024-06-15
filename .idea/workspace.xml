@@ -4,75 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c234b14-c019-4ff7-a623-955a1a3c4a18" name="Changes" comment="Excercise2">
-      <change afterPath="$PROJECT_DIR$/parallel-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing-math.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9c234b14-c019-4ff7-a623-955a1a3c4a18" name="Changes" comment="Excercise10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/SK14 Automation Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/PineTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/homework1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/homework2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/homework3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/homework5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/homework6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture3/GitWork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/DaysOfTheWeekPrinter/DaysOfTheWeekPrinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/EligibleToWork/EligibleToWork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/Examples.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/LargestNumberFound/LargestNumberFound.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/ListOfNumbersIteration/ListOfNumbersIteration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/ReverseList/ReverseList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/SaleRevenueCalculator/SaleRevenueCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/TriangleCalculator/TriangleCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/VacationTripAdvisor/VacationTripAdvisor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/ArraySum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/DiagonalSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/Examples.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/Excercises.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/Matrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/MaxArrayElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/PalindromeNew.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/PalindromeValidation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/reverseLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/NumberIsEven.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/countAllCharacters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/countAllWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/findAvgNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/findIfPalindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/findSmallestNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/findTheMiddleCharacter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/homeWorkMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/homeWorkMethods2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture7/CarImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture7/CarNew.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture7/Exceptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture7/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture8/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture8/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture8/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture8/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture9/Bulgarian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture9/Italian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture9/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture9/Person.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +53,8 @@
     &quot;Application.homework6.executor&quot;: &quot;Run&quot;,
     &quot;Application.homework7.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DataProviderTests.executor&quot;: &quot;Run&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/tsvet/SK14-automation-Java&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
@@ -129,83 +64,87 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Lecture2" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tsvet\SK14-automation-Java" />
+    </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="Lecture2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PineTree">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lecture2.Main" />
-      <module name="SK14-automation-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lecture2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="TestNG.DataProviderTests">
+    <configuration name="Employee (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Employee" />
+      <module name="SK14-automation-Java-Web" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PineTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lecture2.PineTree" />
-      <module name="SK14-automation-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lecture2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Employee" />
+      <module name="SK14-automation-Java-Web" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lecture2.homework3" />
-      <module name="SK14-automation-Java" />
+    <configuration name="DataProviderTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SK14-automation-Java-Web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lecture2.*" />
+          <option name="PATTERN" value="Lecture10.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Lecture10.examples" />
+      <option name="MAIN_CLASS_NAME" value="Lecture10.examples.DataProviderTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework5$InputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lecture2.homework5$InputExample" />
-      <module name="SK14-automation-Java" />
+    <configuration name="Lecture8" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SK14-automation-Java-Web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lecture2.*" />
+          <option name="PATTERN" value="Lecture8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Lecture8" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lecture2.homework6" />
-      <module name="SK14-automation-Java" />
+    <configuration name="TestNGClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SK14-automation-Java-Web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lecture2.*" />
+          <option name="PATTERN" value="Lecture10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Lecture10" />
+      <option name="MAIN_CLASS_NAME" value="Lecture10.TestNGClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PineTree" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.homework6" />
-        <item itemvalue="Application.homework5$InputExample" />
-        <item itemvalue="Application.homework3" />
+        <item itemvalue="TestNG.DataProviderTests" />
+        <item itemvalue="Application.Employee (1)" />
+        <item itemvalue="Application.Employee" />
+        <item itemvalue="TestNG.Lecture8" />
+        <item itemvalue="TestNG.TestNGClass" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716191386731</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Excercise10">
+      <option name="closed" value="true" />
+      <created>1718476518373</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718476518373</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +239,7 @@
     <MESSAGE value="Excercise2 - p.1" />
     <MESSAGE value="Excercise2 - p.1/2" />
     <MESSAGE value="Excercise2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Excercise2" />
+    <MESSAGE value="Excercise10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Excercise10" />
   </component>
 </project>
