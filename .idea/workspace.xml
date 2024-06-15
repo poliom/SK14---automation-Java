@@ -4,7 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c234b14-c019-4ff7-a623-955a1a3c4a18" name="Changes" comment="Excercise2" />
+    <list default="true" id="9c234b14-c019-4ff7-a623-955a1a3c4a18" name="Changes" comment="Excercise2">
+      <change afterPath="$PROJECT_DIR$/parallel-classes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parallel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing-math.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/SK14 Automation Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Exercise7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/PineTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/homework1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/homework2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/homework3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/homework5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture2/homework6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture3/GitWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/DaysOfTheWeekPrinter/DaysOfTheWeekPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/EligibleToWork/EligibleToWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/Examples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/LargestNumberFound/LargestNumberFound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/ListOfNumbersIteration/ListOfNumbersIteration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/ReverseList/ReverseList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/SaleRevenueCalculator/SaleRevenueCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/TriangleCalculator/TriangleCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture4/VacationTripAdvisor/VacationTripAdvisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/ArraySum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/DiagonalSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/Examples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/Excercises.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/MaxArrayElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/PalindromeNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/PalindromeValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture5/reverseLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/NumberIsEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/countAllCharacters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/countAllWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/findAvgNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/findIfPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/findSmallestNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/findTheMiddleCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/homeWorkMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture6/homeWorkMethods2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture7/CarImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture7/CarNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture7/Exceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture7/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture8/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture8/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture8/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture8/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture9/Bulgarian.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture9/Italian.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture9/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SK14 Automation Java/src/Lecture9/Person.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,31 +100,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Exercise2 (1).executor": "Run",
-    "Application.Exercise2.executor": "Run",
-    "Application.Lecture2.homework5.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.NamesExample.executor": "Debug",
-    "Application.PineTree.executor": "Run",
-    "Application.homework1.executor": "Run",
-    "Application.homework2.executor": "Run",
-    "Application.homework3.executor": "Run",
-    "Application.homework4.executor": "Run",
-    "Application.homework5$InputExample.executor": "Run",
-    "Application.homework5.executor": "Run",
-    "Application.homework6$InputExample.executor": "Run",
-    "Application.homework6.executor": "Run",
-    "Application.homework7.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/tsvet/SK14-automation-Java/SK14 Automation Java",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Exercise2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercise2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture2.homework5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NamesExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PineTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework5$InputExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework6$InputExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tsvet/SK14-automation-Java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Lecture2" />

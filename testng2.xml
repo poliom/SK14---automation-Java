@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Web test suite" parallel="methods" thread-count="5">
+    <test name="Smoke Tests">
+        <classes>
+            <class name="Lecture10.examples.GroupTests"/>
+        </classes>
+    </test>
+    <test name="Regression Tests">
+        <classes>
+            <class name="Lecture10.examples.DataProviderTests"/>
+            <class name="Lecture10.examples.PriorityTests"/>
+        </classes>
+    </test>
+</suite>
