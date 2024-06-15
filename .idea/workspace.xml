@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c234b14-c019-4ff7-a623-955a1a3c4a18" name="Changes" comment="Excercise10">
+    <list default="true" id="9c234b14-c019-4ff7-a623-955a1a3c4a18" name="Changes" comment="Excercise10 - homework success">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,33 +33,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Exercise2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercise2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lecture2.homework5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NamesExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.PineTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework5$InputExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework6$InputExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework7.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DataProviderTests.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tsvet/SK14-automation-Java&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Employee (1).executor": "Run",
+    "Application.Employee.executor": "Run",
+    "Application.Exercise2 (1).executor": "Run",
+    "Application.Exercise2.executor": "Run",
+    "Application.Lecture2.homework5.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NamesExample.executor": "Debug",
+    "Application.PineTree.executor": "Run",
+    "Application.homework1.executor": "Run",
+    "Application.homework2.executor": "Run",
+    "Application.homework3.executor": "Run",
+    "Application.homework4.executor": "Run",
+    "Application.homework5$InputExample.executor": "Run",
+    "Application.homework5.executor": "Run",
+    "Application.homework6$InputExample.executor": "Run",
+    "Application.homework6.executor": "Run",
+    "Application.homework7.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml.executor": "Run",
+    "TestNG.DataProviderTests.executor": "Run",
+    "TestNG.Lecture8.executor": "Run",
+    "TestNG.TestNGClass.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/tsvet/SK14-automation-Java",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Lecture2" />
@@ -71,7 +75,7 @@
       <recent name="Lecture2" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DataProviderTests">
+  <component name="RunManager" selected="TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml">
     <configuration name="Employee (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Employee" />
@@ -84,6 +88,16 @@
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Employee" />
       <module name="SK14-automation-Java-Web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/tsvet/SK14-automation-Java/testing-math.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SK14-automation-Java-Web" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing-math.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,30 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGClass" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SK14-automation-Java-Web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lecture10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lecture10" />
-      <option name="MAIN_CLASS_NAME" value="Lecture10.TestNGClass" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml" />
         <item itemvalue="TestNG.DataProviderTests" />
         <item itemvalue="Application.Employee (1)" />
         <item itemvalue="Application.Employee" />
         <item itemvalue="TestNG.Lecture8" />
-        <item itemvalue="TestNG.TestNGClass" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718476518373</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Excercise10 - homework success">
+      <option name="closed" value="true" />
+      <created>1718482904832</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718482904832</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +245,7 @@
     <MESSAGE value="Excercise2 - p.1/2" />
     <MESSAGE value="Excercise2" />
     <MESSAGE value="Excercise10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Excercise10" />
+    <MESSAGE value="Excercise10 - homework success" />
+    <option name="LAST_COMMIT_MESSAGE" value="Excercise10 - homework success" />
   </component>
 </project>

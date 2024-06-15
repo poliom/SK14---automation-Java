@@ -3,6 +3,10 @@
     <test name="Test-method test" group-by-instances="true">
         <classes>
             <class name="Lecture10.examples.DataProviderTests"/>
+            <class name="Lecture10.examples.DataProviderTests2"/>
+            <class name="Lecture10.examples.DataProviderTests3"/>
+            <class name="Lecture10.examples.DataProviderTests4"/>
+            <class name="Lecture10.examples.DataProviderTests5"/>
             <class name="Lecture10.TestNGClass"/>
         </classes>
     </test>
