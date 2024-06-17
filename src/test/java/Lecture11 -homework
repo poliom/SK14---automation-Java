@@ -1,0 +1,16 @@
+Основна страница
+Home- http://training.skillo-bg.com:4200/posts/all
+
+homeicon - skillo logo - /html/body/app-root/div[1]/app-header/header/nav/div/a/img
+//body/app-root/div[1] -  the header padding - /html/body/app-root/div[1]/app-header/header
+//body/app-root/div[2]/app-all-posts/div[1] - the page container - /html/body/app-root/div[2]/app-all-posts/div
+"nav-link-home - the home button - /html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[1]/a, 
+//*[@id=""nav-link-home""]"
+
+Бонус страница
+Sign in ( Login ) - http://training.skillo-bg.com:4200/users/login
+
+users/login - the login  button - /html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[2]/a
+sign-in-button  - the sign in button - or //*[@id="sign-in-button"] - /html/body/app-root/div[2]/app-login/div/div/form/button
+remember-me-button - the remember me tick/button - /html/body/app-root/div[2]/app-login/div/div/form/div/input 
+register - the Register button - /html/body/app-root/div[2]/app-login/div/div/form/p[2]/a
