@@ -31,37 +31,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Employee (1).executor": "Run",
-    "Application.Employee.executor": "Run",
-    "Application.Exercise2 (1).executor": "Run",
-    "Application.Exercise2.executor": "Run",
-    "Application.Lecture2.homework5.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.NamesExample.executor": "Debug",
-    "Application.PineTree.executor": "Run",
-    "Application.homework1.executor": "Run",
-    "Application.homework2.executor": "Run",
-    "Application.homework3.executor": "Run",
-    "Application.homework4.executor": "Run",
-    "Application.homework5$InputExample.executor": "Run",
-    "Application.homework5.executor": "Run",
-    "Application.homework6$InputExample.executor": "Run",
-    "Application.homework6.executor": "Run",
-    "Application.homework7.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml.executor": "Run",
-    "TestNG.DataProviderTests.executor": "Run",
-    "TestNG.Lecture8.executor": "Run",
-    "TestNG.TestNGClass.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/tsvet/SK14-automation-Java",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Employee (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Employee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercise2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercise2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture2.homework5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NamesExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PineTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework5$InputExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework6$InputExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DataProviderTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Lecture8.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNGClass.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tsvet/SK14-automation-Java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Lecture2" />
@@ -77,7 +77,7 @@
       <recent name="Lecture10.examples" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml">
+  <component name="RunManager" selected="Application.Exercise">
     <configuration name="Employee (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Employee" />
@@ -90,6 +90,19 @@
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Employee" />
       <module name="SK14-automation-Java-Web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lecture12.Exercise" />
+      <module name="SK14-automation-Java-Web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lecture12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,29 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture8" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SK14-automation-Java-Web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lecture8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lecture8" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise" />
         <item itemvalue="TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml" />
         <item itemvalue="TestNG.DataProviderTests" />
         <item itemvalue="Application.Employee (1)" />
         <item itemvalue="Application.Employee" />
-        <item itemvalue="TestNG.Lecture8" />
       </list>
     </recent_temporary>
   </component>
