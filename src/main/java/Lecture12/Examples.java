@@ -3,6 +3,8 @@ package Lecture12;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
@@ -10,10 +12,13 @@ import java.util.concurrent.TimeUnit;
 
 public class Examples {
     public static void main(String[] args) {
-        dropdownTest();
+        //dropdownTest();
+        myFirstWebBrowser();
     }
     public static void myFirstWebBrowser(){
-        ChromeDriver webDriver = new ChromeDriver();
+        //ChromeDriver webDriver = new ChromeDriver();
+        //FirefoxDriver webDriver = new FirefoxDriver();
+        EdgeDriver webDriver = new EdgeDriver();
         webDriver.get("http://training.skillo-bg.com:4200/posts/all");
         webDriver.manage().window().maximize();
         webDriver.close();
