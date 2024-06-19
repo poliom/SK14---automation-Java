@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c234b14-c019-4ff7-a623-955a1a3c4a18" name="Changes" comment="Lecture12 - pom file" />
+    <list default="true" id="9c234b14-c019-4ff7-a623-955a1a3c4a18" name="Changes" comment="Lecture12 - pom file and exercise" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,42 +31,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Employee (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Employee.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercise2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercise2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lecture2.homework5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NamesExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.PineTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework5$InputExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework6$InputExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework7.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DataProviderTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Lecture8.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestNGClass.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tsvet/SK14-automation-Java&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Employee (1).executor": "Run",
+    "Application.Employee.executor": "Run",
+    "Application.Exercise.executor": "Run",
+    "Application.Exercise2 (1).executor": "Run",
+    "Application.Exercise2.executor": "Run",
+    "Application.Lecture2.homework5.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NamesExample.executor": "Debug",
+    "Application.PineTree.executor": "Run",
+    "Application.homework1.executor": "Run",
+    "Application.homework2.executor": "Run",
+    "Application.homework3.executor": "Run",
+    "Application.homework4.executor": "Run",
+    "Application.homework5$InputExample.executor": "Run",
+    "Application.homework5.executor": "Run",
+    "Application.homework6$InputExample.executor": "Run",
+    "Application.homework6.executor": "Run",
+    "Application.homework7.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml.executor": "Run",
+    "TestNG.DataProviderTests.executor": "Run",
+    "TestNG.Lecture8.executor": "Run",
+    "TestNG.TestNGClass.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/tsvet/SK14-automation-Java/src/test/java",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Lecture2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tsvet\SK14-automation-Java\src\test\java" />
       <recent name="C:\Users\tsvet\SK14-automation-Java\src\test\java\Lecture10\examples" />
       <recent name="C:\Users\tsvet\SK14-automation-Java" />
     </key>
@@ -241,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718652651629</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lecture12 - pom file and exercise">
+      <option name="closed" value="true" />
+      <created>1718741440710</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718741440710</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +273,7 @@
     <MESSAGE value="Excercise10 - homework success" />
     <MESSAGE value="Excercise10 - homework success - 22 test parallel" />
     <MESSAGE value="Lecture12 - pom file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture12 - pom file" />
+    <MESSAGE value="Lecture12 - pom file and exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture12 - pom file and exercise" />
   </component>
 </project>
