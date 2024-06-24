@@ -1,9 +1,6 @@
 package Lecture13;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -135,11 +132,21 @@ public class TestExamples {
         try{
             WebElement element = webDriver.findElement(webElementLocator);
             isDisplayed = element.isDisplayed();
-        }catch (StaleElementReferenceException ex){
+        }
+        catch (StaleElementReferenceException ex){
             System.out.println("Stale Element Reference Exception is catch");
             isDisplayed = false;
-        }catch (NoSuchElementException ex){
+        }
+        catch (NoSuchElementException ex){
             System.out.println("Element is not present on the page");
+            isDisplayed = false;
+        }
+//        catch (InvalidSelectorException ex){
+//            System.out.println("Invalid selector");
+//            isDisplayed = false;
+//        }
+        catch (Exception ex){
+            System.out.println("Presence of element had an exception: " + ex);
             isDisplayed = false;
         }
         return isDisplayed;
