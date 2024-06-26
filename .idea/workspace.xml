@@ -35,9 +35,6 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Employee (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Employee.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercise.executor&quot;: &quot;Run&quot;,
     &quot;Application.Exercise2 (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.Exercise2.executor&quot;: &quot;Run&quot;,
     &quot;Application.Lecture2.homework5.executor&quot;: &quot;Run&quot;,
@@ -54,12 +51,8 @@
     &quot;Application.homework6.executor&quot;: &quot;Run&quot;,
     &quot;Application.homework7.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DataProviderTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Lecture8.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestNGClass.executor&quot;: &quot;Run&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tsvet/SK14-automation-Java/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tsvet/SK14-automation-Java&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
@@ -67,41 +60,17 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Lecture2" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tsvet\SK14-automation-Java\src\test\java" />
-      <recent name="C:\Users\tsvet\SK14-automation-Java\src\test\java\Lecture10\examples" />
-      <recent name="C:\Users\tsvet\SK14-automation-Java" />
-    </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="Lecture2" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Lecture10.examples" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise">
-    <configuration name="Employee (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Employee" />
-      <module name="SK14-automation-Java-Web" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Employee" />
-      <module name="SK14-automation-Java-Web" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lecture12.Exercise" />
-      <module name="SK14-automation-Java-Web" />
+  <component name="RunManager" selected="Application.PineTree">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lecture2.Main" />
+      <module name="SK14-automation-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lecture12.*" />
+          <option name="PATTERN" value="Lecture2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,40 +78,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/tsvet/SK14-automation-Java/testing-math.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SK14-automation-Java-Web" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing-math.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+    <configuration name="PineTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lecture2.PineTree" />
+      <module name="SK14-automation-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lecture2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataProviderTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SK14-automation-Java-Web" />
+    <configuration name="homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lecture2.homework3" />
+      <module name="SK14-automation-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lecture10.examples.*" />
+          <option name="PATTERN" value="Lecture2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lecture10.examples" />
-      <option name="MAIN_CLASS_NAME" value="Lecture10.examples.DataProviderTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homework5$InputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lecture2.homework5$InputExample" />
+      <module name="SK14-automation-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lecture2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homework6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lecture2.homework6" />
+      <module name="SK14-automation-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lecture2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise" />
-        <item itemvalue="TestNG.C:/Users/tsvet/SK14-automation-Java/testing-math.xml" />
-        <item itemvalue="TestNG.DataProviderTests" />
-        <item itemvalue="Application.Employee (1)" />
-        <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.PineTree" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.homework6" />
+        <item itemvalue="Application.homework5$InputExample" />
+        <item itemvalue="Application.homework3" />
       </list>
     </recent_temporary>
   </component>
@@ -211,63 +205,7 @@
       <option name="project" value="LOCAL" />
       <updated>1716191386731</updated>
     </task>
-    <task id="LOCAL-00008" summary="Excercise10">
-      <option name="closed" value="true" />
-      <created>1718476518373</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1718476518373</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Excercise10 - homework success">
-      <option name="closed" value="true" />
-      <created>1718482904832</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1718482904832</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Excercise10 - homework success - 22 test parallel">
-      <option name="closed" value="true" />
-      <created>1718485973183</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1718485973183</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Lecture12 - pom file">
-      <option name="closed" value="true" />
-      <created>1718652651628</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1718652651629</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Lecture12 - pom file and exercise">
-      <option name="closed" value="true" />
-      <created>1718741440710</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1718741440710</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Lecture13 - exercise">
-      <option name="closed" value="true" />
-      <created>1719179024000</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1719179024000</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Lecture14 - examples">
-      <option name="closed" value="true" />
-      <created>1719418678122</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1719418678122</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,13 +223,6 @@
     <MESSAGE value="Excercise2 - p.1" />
     <MESSAGE value="Excercise2 - p.1/2" />
     <MESSAGE value="Excercise2" />
-    <MESSAGE value="Excercise10" />
-    <MESSAGE value="Excercise10 - homework success" />
-    <MESSAGE value="Excercise10 - homework success - 22 test parallel" />
-    <MESSAGE value="Lecture12 - pom file" />
-    <MESSAGE value="Lecture12 - pom file and exercise" />
-    <MESSAGE value="Lecture13 - exercise" />
-    <MESSAGE value="Lecture14 - examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture14 - examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Excercise2" />
   </component>
 </project>

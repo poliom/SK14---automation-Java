@@ -189,4 +189,7 @@ public class Examples
         return RandomStringUtils.randomAlphanumeric(minLengthInclusive, maxLengthInclusive);
     }
 
+    public void main () {
+    }
+
 }
