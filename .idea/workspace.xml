@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c234b14-c019-4ff7-a623-955a1a3c4a18" name="Changes" comment="Lecture13 - exercise">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9c234b14-c019-4ff7-a623-955a1a3c4a18" name="Changes" comment="Lecture14 - examples" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -261,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719179024000</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Lecture14 - examples">
+      <option name="closed" value="true" />
+      <created>1719418678122</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719418678122</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +291,7 @@
     <MESSAGE value="Lecture12 - pom file" />
     <MESSAGE value="Lecture12 - pom file and exercise" />
     <MESSAGE value="Lecture13 - exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture13 - exercise" />
+    <MESSAGE value="Lecture14 - examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture14 - examples" />
   </component>
 </project>
