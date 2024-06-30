@@ -66,11 +66,11 @@ public class RegistrationTest
         wait.until(ExpectedConditions.visibilityOf(signUpElement));
 
         WebElement userNameField = driver.findElement(By.name("username"));
-        String username = new String("tsveta.v");
+        String username = ("tsveta.v");
         userNameField.sendKeys(username);
 
         WebElement emailField = driver.findElement(By.cssSelector("[type='email']"));
-        String email = new String("tsveta.v@test.com");
+        String email = ("tsveta.v@test.com");
         emailField.sendKeys(email);
 
         WebElement birthDateElement = driver.findElement(By.cssSelector("[formcontrolname='birthDate']"));
