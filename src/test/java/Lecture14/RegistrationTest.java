@@ -41,8 +41,15 @@ public class RegistrationTest
 
     @DataProvider(name = "getRegistrationData")
     public Object[][] getRegistrationData() {
-        return new Object[][]{{"tsveta.v", "123Abc", "tsveta.v"}, //login with username
-                {"tsvetav@test.com", "123Abc", "tsveta.v"}, //login with email
+        return new Object[][]{{"tsveta.v", "123Abc", "tsveta.v"}, //with username
+                {"123", "123Abc", "tsveta.v"}, //with invalid username
+                {"tsveta.v", "123abc", "tsveta.v"}, //with invalid password
+                {" ", "123Abc", "tsveta.v"}, //with empty username
+                {"tsveta.v", " ", "tsveta.v"}, //with empty password
+                {"tsveta.v", "123Abc", " "}, //with empty name
+                {"tsvetav@test.com", "123Abc", "tsveta.v"}, //with email
+                {"tsvetav.test.com", "123Abc", "tsveta.v"}, // with invalid email
+
         };
     }
 
@@ -66,11 +73,11 @@ public class RegistrationTest
         wait.until(ExpectedConditions.visibilityOf(signUpElement));
 
         WebElement userNameField = driver.findElement(By.name("username"));
-        String username = ("tsveta.v");
+        String username = new String("tsveta.v");
         userNameField.sendKeys(username);
 
         WebElement emailField = driver.findElement(By.cssSelector("[type='email']"));
-        String email = ("tsveta.v@test.com");
+        String email = new String("tsveta.v@test.com");
         emailField.sendKeys(email);
 
         WebElement birthDateElement = driver.findElement(By.cssSelector("[formcontrolname='birthDate']"));

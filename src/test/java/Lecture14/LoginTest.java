@@ -40,7 +40,13 @@ public class LoginTest {
     @DataProvider(name = "getRegistrationData")
     public Object[][] getRegistrationData () {
         return new Object[][]{{"tsveta.v", "123Abc", "tsveta.v"}, //login with username
+                {"123", "123Abc", "tsveta.v"}, //with invalid username
+                {"tsveta.v", "123abc", "tsveta.v"}, //with invalid password
+                {" ", "123Abc", "tsveta.v"}, //with empty username
+                {"tsveta.v", " ", "tsveta.v"}, //with empty password
+                {"tsveta.v", "123Abc", " "}, //with empty name
                 {"tsveta.v@test.com", "123Abc", "tsveta.v"}, //login with email
+                {"tsvetav.test.com", "123Abc", "tsveta.v"}, //login with invalid email
         };
     }
     @BeforeTest
