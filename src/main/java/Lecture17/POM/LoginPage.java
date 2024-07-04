@@ -11,21 +11,21 @@ public class LoginPage extends ISkillo {
     public static final String LOGIN_PAGE_SUFIX = "users/login";
 
     @FindBy(css = "p.h4")
-    public WebElement loginPageHeaderTitle;
+    private WebElement loginPageHeaderTitle;
     @FindBy(name = "usernameOrEmail")
-    public WebElement usernameInputField;
+    private WebElement usernameInputField;
     @FindBy(id = "defaultLoginFormPassword")
-    public WebElement passwordInputField;
+    private WebElement passwordInputField;
     @FindBy(xpath = "//span[contains(text(),'Remember me')]")
-    public WebElement rememberMeLabelText;
+    private WebElement rememberMeLabelText;
     @FindBy(xpath = "//input[contains(@formcontrolname,'rememberMe')]")
-    public WebElement rememberMeCheckBox;
+    private WebElement rememberMeCheckBox;
     @FindBy(id = "sign-in-button")
-    public WebElement loginFormSubmitButton;
+    private WebElement loginFormSubmitButton;
     @FindBy(xpath = "//a[contains(.,'Register')]")
-    public WebElement loginFormRegistrationLink;
+    private WebElement loginFormRegistrationLink;
     @FindBy(xpath = "//div[@class=\"toast-message ng-star-inserted\"]")
-    public WebElement popUpMsg;
+    private WebElement popUpMsg;
 
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -56,6 +56,10 @@ public class LoginPage extends ISkillo {
         wait.until(ExpectedConditions.visibilityOf(popUpMsg));
         Assert.assertEquals(msgText, expectedMsgText);
     };
+
+    public void clickOnRegistrationLink(){
+        waitAndClick(loginFormRegistrationLink);
+    }
 
     public void msgStatusAfterInvalidLogin() {
         String expectedMsgText = "Wrong username or password!";

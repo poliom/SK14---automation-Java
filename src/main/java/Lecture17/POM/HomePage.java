@@ -32,7 +32,7 @@ public class HomePage extends ISkillo {
     }
 
     //4.1. User action with web elements
-    public void clickOnLoginButton() {
+    public void clickOnNavigationLoginButton() {
         waitAndClick(navigationLoginButton);
     }
 
