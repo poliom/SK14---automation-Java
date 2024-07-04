@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.skilo</groupId>
+    <groupId>com.skilo</groupId>
     <artifactId>SK14-Automation-Java-Web</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -14,8 +14,8 @@
 
     <developers>
         <developer>
-            <id>StudentID</id>
-            <name>Student Full Name</name>
+            <id>NNN</id>
+            <name>Nikolay Nikolov </name>
             <email>Student email for companies to be contacted</email>
         </developer>
     </developers>
@@ -56,7 +56,7 @@
                         <suiteXmlFiles>
                             <suiteXmlFile>testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
-                        <reportsDirectory>${basedir}/src/main/resources/reports</reportsDirectory>
+                        <reportsDirectory>${basedir}/src/test/resources/reports</reportsDirectory>
                     </configuration>
                 </plugin>
             </plugins>
@@ -83,6 +83,19 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.8.0</version>
         </dependency>
+
+        <!--   Logging     -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.23.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.23.1</version>
+        </dependency>
+
     </dependencies>
 
 </project>

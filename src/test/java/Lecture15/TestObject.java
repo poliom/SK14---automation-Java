@@ -35,7 +35,7 @@ public class TestObject {
         this.webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
     @AfterMethod
-    protected final void tearDownTest(ITestResult testResult){
+    protected final void tearDownTest(ITestResult testResult) throws IOException {
         quitDriver();
     }
     @AfterSuite
@@ -43,9 +43,11 @@ public class TestObject {
         //cleanDirectory(DOWNLOAD_DIR);
     }
 
-    private void quitDriver() {
-        if (this.webDriver != null){
-            this.webDriver.quit();
+    private void quitDriver() throws IOException {
+        if (!(webDriver == null)){
+            System.out.println("The driver is about to be closed.");
+            webDriver.quit();
+            Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe /T");
         }
     }
 
