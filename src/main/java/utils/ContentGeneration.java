@@ -7,7 +7,7 @@ public class ContentGeneration {
 
     public static String createUser() {
 
-        return new SimpleDateFormat("SSS").format(new Date()) + "Mincho";
+        return new SimpleDateFormat("SSS").format(new Date()) + "skiloTest";
     }
 
     public static String createEmail() {
@@ -24,6 +24,6 @@ public class ContentGeneration {
     }
 
     public static String createPasswordFor() {
-        return new SimpleDateFormat("mmssSSS").format(new Date()) + "_mincho";
+        return new SimpleDateFormat("mmssSSS").format(new Date()) + "_skiloTest";
     }
 }
