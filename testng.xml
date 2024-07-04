@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Test-methodSuite" parallel="methods" thread-count="2">
-    <groups>
-        <run>
-            <include name="regression"/>
-            <include name="smoke"/>
-        </run>
-    </groups>
-    <test name="Test-method test" group-by-instances="true">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/CODE/SK_AU_14/SK14---automation-Java">
         <classes>
-            <class name="Lecture10.examples.GroupTests"/>
-            <class name="Lecture10.TestNGClass"/>
+            <class name="Lecture16.gui.regression.login.LoginTest">
+                <methods>
+                    <include name="navigatingAndLoggingIn"/>
+                </methods>
+            </class>
+
         </classes>
     </test>
 </suite>
